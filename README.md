@@ -1,10 +1,27 @@
-Economics from UW–Madison, May 2026. Healthcare and payer analytics, mostly.
+Economics from UW–Madison, May 2026. Machine learning evaluation, quantitative
+finance and healthcare analytics.
 
 Everything below runs on public data and is reproducible from a clone. Each
 repo states what it does not support as clearly as what it found, which is the
 part I would want to read first.
 
 **Write-ups with figures live at [abhaymettu.com/research](https://www.abhaymettu.com/research/).**
+
+### Machine learning systems
+
+| | |
+|---|---|
+| [judge-reliability](https://github.com/abhaymettu/judge-reliability) | An LLM judge agrees with the human majority 85.5% of the time against an 88.2% human ceiling, and only 14.9 points above a rule that reads none of the text and picks the longer answer. |
+| [retrieval-ablation](https://github.com/abhaymettu/retrieval-ablation) | Hybrid retrieval beats BM25 by 0.204 nDCG@10 on fiqa. A cross encoder over the top 100 makes all three BEIR datasets worse, and Recall@100 caps what any reranker could recover. |
+| [drift-guard](https://github.com/abhaymettu/drift-guard) | Four drift detectors scored on detection delay against false alarm rate. The automatic rollback fires on schedule and costs a further 0.0615 AUC, because it falls back to another pre-shift model. |
+
+### Quantitative finance
+
+| | |
+|---|---|
+| [factor-haircut](https://github.com/abhaymettu/factor-haircut) | Eight price and volume factors. One clears a costless t of 2.0 and none survive a multiple testing haircut. Momentum breaks even at 199 bps, 20x the headline cost, so it fails on significance rather than on cost. |
+| [vol-horserace](https://github.com/abhaymettu/vol-horserace) | Gradient boosting beats HAR-RV on QLIKE at a one day horizon and is thrown out of the 90% model confidence set at 22 days. |
+| [kalshi-calibration](https://github.com/abhaymettu/kalshi-calibration) | Kalshi prices are calibrated. What a naive backtest reads as edge is 65% bid-ask spread, and fees consume 86% of what survives. |
 
 ### Healthcare and payer analytics
 
