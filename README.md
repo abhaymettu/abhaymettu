@@ -1,4 +1,4 @@
-<img alt="This loop keeps running only while you keep narrating it" src="header.svg">
+<a href="https://www.numinous.one"><img alt="numinous.one: a field of glyphs dissolving through a fluid simulation" src="numinous.webp"></a>
 
 Economics from UW–Madison, May 2026. Machine learning evaluation, quantitative
 finance and healthcare analytics.
