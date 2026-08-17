@@ -4,15 +4,15 @@
       <feGaussianBlur stdDeviation="105"/>
     </filter>
   </defs>
-  <rect width="1200" height="300" fill="#0C0C0F"/>
+  <rect width="1200" height="300" fill="#08080B"/>
   <g filter="url(#soft)">
-    <ellipse cx="230" cy="90" rx="330" ry="190" fill="#7A4A32" opacity="0.55"/>
-    <ellipse cx="980" cy="230" rx="360" ry="210" fill="#2F4652" opacity="0.60"/>
-    <ellipse cx="620" cy="40" rx="260" ry="150" fill="#6B4B5E" opacity="0.45"/>
-    <ellipse cx="470" cy="290" rx="300" ry="170" fill="#3A3A57" opacity="0.45"/>
+    <ellipse cx="270" cy="70" rx="330" ry="180" fill="#633B28" opacity="0.42"/>
+    <ellipse cx="960" cy="250" rx="360" ry="200" fill="#23353F" opacity="0.48"/>
+    <ellipse cx="600" cy="30" rx="260" ry="140" fill="#4E3646" opacity="0.34"/>
+    <ellipse cx="450" cy="300" rx="300" ry="160" fill="#2B2B42" opacity="0.36"/>
   </g>
-  <text x="92" y="152" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="46" letter-spacing="-0.5"
-    fill="#F0EDE6">This loop keeps running only</text>
-  <text x="92" y="208" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="46" letter-spacing="-0.5"
-    fill="#F0EDE6">while you keep narrating it</text>
+  <text x="600.0" y="140.0" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif"
+    font-size="46" letter-spacing="-0.5" fill="#EFECE5">This loop keeps running only</text>
+  <text x="600.0" y="196.0" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif"
+    font-size="46" letter-spacing="-0.5" fill="#EFECE5">while you keep narrating it</text>
 </svg>

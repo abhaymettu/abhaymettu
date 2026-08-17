@@ -7,10 +7,15 @@
   <text x="40" y="122" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="19"><tspan fill="#5E9E6E">abhay@mettu</tspan><tspan fill="#4A4A52"> ~ </tspan><tspan fill="#F2F2EE">&#10095; ls research/</tspan></text>
   <text x="40" y="158" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#8C8C95">machine-learning  quantitative  real-estate  commercial</text>
   <text x="40" y="188" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#8C8C95">healthcare  psychology  engineering</text>
-  <text x="40" y="246" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="19"><tspan fill="#5E9E6E">abhay@mettu</tspan><tspan fill="#4A4A52"> ~ </tspan><tspan fill="#F2F2EE">&#10095; python3 04_negative_control.py</tspan></text>
-  <text x="40" y="282" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#8C8C95">7 defects injected into a throwaway copy <tspan fill="#4A4A52">&#8594;</tspan> <tspan fill="#E4572E">7 caught</tspan></text>
-  <text x="40" y="312" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#4A4A52"># a check that never fires is not a check</text>
-  <text x="40" y="366" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="19">
+  <text x="40" y="238" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="19"><tspan fill="#5E9E6E">abhay@mettu</tspan><tspan fill="#4A4A52"> ~ </tspan><tspan fill="#F2F2EE">&#10095; python3 05_measure.py --with-baselines</tspan></text>
+  <text x="40" y="274" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#8C8C95">llm judge</text>
+  <text x="330" y="274" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#F2F2EE">85.5%</text>
+  <text x="40" y="302" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#8C8C95">pick the longer answer</text>
+  <text x="330" y="302" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#E4572E">70.6%</text>
+  <text x="430" y="302" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#4A4A52"># reads none of the text</text>
+  <text x="40" y="330" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#8C8C95">human ceiling</text>
+  <text x="330" y="330" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#F2F2EE">88.2%</text>
+  <text x="40" y="374" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="19">
     <tspan fill="#5E9E6E">abhay@mettu</tspan><tspan fill="#4A4A52"> ~ </tspan><tspan fill="#F2F2EE">&#10095; &#9608;</tspan>
   </text>
 </svg>

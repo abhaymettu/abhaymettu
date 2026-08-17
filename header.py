@@ -40,10 +40,15 @@ header = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" vi
 {prompt(122, "ls research/")}
 {out(158, "machine-learning  quantitative  real-estate  commercial")}
 {out(188, "healthcare  psychology  engineering")}
-{prompt(246, "python3 04_negative_control.py")}
-  <text x="40" y="282" font-family="{MONO}" font-size="18" fill="{DIM}">7 defects injected into a throwaway copy <tspan fill="#4A4A52">&#8594;</tspan> <tspan fill="{ACCENT}">7 caught</tspan></text>
-{out(312, "# a check that never fires is not a check", "#4A4A52")}
-  <text x="40" y="366" font-family="{MONO}" font-size="19">
+{prompt(238, "python3 05_measure.py --with-baselines")}
+  <text x="40" y="274" font-family="{MONO}" font-size="18" fill="{DIM}">llm judge</text>
+  <text x="330" y="274" font-family="{MONO}" font-size="18" fill="{TEXT}">85.5%</text>
+  <text x="40" y="302" font-family="{MONO}" font-size="18" fill="{DIM}">pick the longer answer</text>
+  <text x="330" y="302" font-family="{MONO}" font-size="18" fill="{ACCENT}">70.6%</text>
+  <text x="430" y="302" font-family="{MONO}" font-size="18" fill="#4A4A52"># reads none of the text</text>
+  <text x="40" y="330" font-family="{MONO}" font-size="18" fill="{DIM}">human ceiling</text>
+  <text x="330" y="330" font-family="{MONO}" font-size="18" fill="{TEXT}">88.2%</text>
+  <text x="40" y="374" font-family="{MONO}" font-size="19">
     <tspan fill="{USER}">abhay@mettu</tspan><tspan fill="#4A4A52"> ~ </tspan><tspan fill="{TEXT}">&#10095; &#9608;</tspan>
   </text>
 </svg>
@@ -56,17 +61,17 @@ footer = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{FW}" height="{FH}" 
       <feGaussianBlur stdDeviation="105"/>
     </filter>
   </defs>
-  <rect width="{FW}" height="{FH}" fill="#0C0C0F"/>
+  <rect width="{FW}" height="{FH}" fill="#08080B"/>
   <g filter="url(#soft)">
-    <ellipse cx="230" cy="90" rx="330" ry="190" fill="#7A4A32" opacity="0.55"/>
-    <ellipse cx="980" cy="230" rx="360" ry="210" fill="#2F4652" opacity="0.60"/>
-    <ellipse cx="620" cy="40" rx="260" ry="150" fill="#6B4B5E" opacity="0.45"/>
-    <ellipse cx="470" cy="290" rx="300" ry="170" fill="#3A3A57" opacity="0.45"/>
+    <ellipse cx="270" cy="70" rx="330" ry="180" fill="#633B28" opacity="0.42"/>
+    <ellipse cx="960" cy="250" rx="360" ry="200" fill="#23353F" opacity="0.48"/>
+    <ellipse cx="600" cy="30" rx="260" ry="140" fill="#4E3646" opacity="0.34"/>
+    <ellipse cx="450" cy="300" rx="300" ry="160" fill="#2B2B42" opacity="0.36"/>
   </g>
-  <text x="92" y="152" font-family="{SERIF}" font-size="46" letter-spacing="-0.5"
-    fill="#F0EDE6">This loop keeps running only</text>
-  <text x="92" y="208" font-family="{SERIF}" font-size="46" letter-spacing="-0.5"
-    fill="#F0EDE6">while you keep narrating it</text>
+  <text x="{FW / 2}" y="{FH / 2 - 10}" text-anchor="middle" font-family="{SERIF}"
+    font-size="46" letter-spacing="-0.5" fill="#EFECE5">This loop keeps running only</text>
+  <text x="{FW / 2}" y="{FH / 2 + 46}" text-anchor="middle" font-family="{SERIF}"
+    font-size="46" letter-spacing="-0.5" fill="#EFECE5">while you keep narrating it</text>
 </svg>
 '''
 
