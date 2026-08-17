@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="header-dark.svg">
+  <img alt="Every one of them says what did not hold. Precision against 200 blind hand-coded posts: obligation 0.52, self-criticism 0.94, against a preregistered threshold of 0.70." src="header-light.svg">
+</picture>
+
 Economics from UW–Madison, May 2026. Machine learning evaluation, quantitative
 finance and healthcare analytics.
 
@@ -55,5 +60,6 @@ Write-ups with figures live at [abhaymettu.com/research](https://www.abhaymettu.
 | [scaffold](https://github.com/abhaymettu/scaffold) | External executive function: an Obsidian second brain and a Telegram bot that nudges on a 30-minute cadence. |
 
 Analyst and research roles where the job is to build the number and then find
-out whether it holds. Anywhere in the US, and I will move.
+out whether it holds. Washington State, Chicago, Boston or Madison WI, and I
+will move.
 [abhaymettu.com](https://www.abhaymettu.com) · abhaymettu12@gmail.com
