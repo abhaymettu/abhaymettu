@@ -40,9 +40,9 @@ header = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" vi
 {prompt(122, "ls research/")}
 {out(158, "machine-learning  quantitative  real-estate  commercial")}
 {out(188, "healthcare  psychology  engineering")}
-{prompt(246, "cd cms-inpatient-warehouse &amp;&amp; ./run_all.sh")}
-  <text x="40" y="282" font-family="{MONO}" font-size="18" fill="{DIM}">00_download <tspan fill="#4A4A52">&#8594;</tspan> <tspan fill="{ACCENT}">01_audit</tspan> <tspan fill="#4A4A52">&#8594;</tspan> 02_build <tspan fill="#4A4A52">&#8594;</tspan> 03_test <tspan fill="#4A4A52">&#8594;</tspan> 04_negative_control <tspan fill="#4A4A52">&#8594;</tspan> 05_report</text>
-{out(312, "292,306 discharges  ·  35 checks  ·  7 injected faults caught", "#6E6E77")}
+{prompt(246, "python3 04_negative_control.py")}
+  <text x="40" y="282" font-family="{MONO}" font-size="18" fill="{DIM}">7 defects injected into a throwaway copy <tspan fill="#4A4A52">&#8594;</tspan> <tspan fill="{ACCENT}">7 caught</tspan></text>
+{out(312, "# a check that never fires is not a check", "#4A4A52")}
   <text x="40" y="366" font-family="{MONO}" font-size="19">
     <tspan fill="{USER}">abhay@mettu</tspan><tspan fill="#4A4A52"> ~ </tspan><tspan fill="{TEXT}">&#10095; &#9608;</tspan>
   </text>

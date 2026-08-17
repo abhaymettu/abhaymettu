@@ -7,9 +7,9 @@
   <text x="40" y="122" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="19"><tspan fill="#5E9E6E">abhay@mettu</tspan><tspan fill="#4A4A52"> ~ </tspan><tspan fill="#F2F2EE">&#10095; ls research/</tspan></text>
   <text x="40" y="158" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#8C8C95">machine-learning  quantitative  real-estate  commercial</text>
   <text x="40" y="188" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#8C8C95">healthcare  psychology  engineering</text>
-  <text x="40" y="246" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="19"><tspan fill="#5E9E6E">abhay@mettu</tspan><tspan fill="#4A4A52"> ~ </tspan><tspan fill="#F2F2EE">&#10095; cd cms-inpatient-warehouse &amp;&amp; ./run_all.sh</tspan></text>
-  <text x="40" y="282" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#8C8C95">00_download <tspan fill="#4A4A52">&#8594;</tspan> <tspan fill="#E4572E">01_audit</tspan> <tspan fill="#4A4A52">&#8594;</tspan> 02_build <tspan fill="#4A4A52">&#8594;</tspan> 03_test <tspan fill="#4A4A52">&#8594;</tspan> 04_negative_control <tspan fill="#4A4A52">&#8594;</tspan> 05_report</text>
-  <text x="40" y="312" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#6E6E77">292,306 discharges  ·  35 checks  ·  7 injected faults caught</text>
+  <text x="40" y="246" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="19"><tspan fill="#5E9E6E">abhay@mettu</tspan><tspan fill="#4A4A52"> ~ </tspan><tspan fill="#F2F2EE">&#10095; python3 04_negative_control.py</tspan></text>
+  <text x="40" y="282" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#8C8C95">7 defects injected into a throwaway copy <tspan fill="#4A4A52">&#8594;</tspan> <tspan fill="#E4572E">7 caught</tspan></text>
+  <text x="40" y="312" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#4A4A52"># a check that never fires is not a check</text>
   <text x="40" y="366" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="19">
     <tspan fill="#5E9E6E">abhay@mettu</tspan><tspan fill="#4A4A52"> ~ </tspan><tspan fill="#F2F2EE">&#10095; &#9608;</tspan>
   </text>
