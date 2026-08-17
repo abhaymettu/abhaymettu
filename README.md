@@ -1,7 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="cycle-dark.svg">
-  <img alt="This loop keeps running only while you keep narrating it" src="cycle-light.svg">
-</picture>
+<img alt="This loop keeps running only while you keep narrating it" src="header.svg">
 
 Economics from UW–Madison, May 2026. Machine learning evaluation, quantitative
 finance and healthcare analytics.

@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img">
-  <rect width="1200" height="360" fill="#FCFCFA"/>
-  <line x1="96" y1="86" x2="240" y2="86" stroke="#E6E6E1" stroke-width="1"/>
-  <text x="96" y="168" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="49" letter-spacing="-0.5" fill="#17171B">This loop keeps running only</text>
-  <text x="96" y="230" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="49" letter-spacing="-0.5" fill="#17171B">while you keep narrating it</text>
-</svg>
