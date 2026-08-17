@@ -1,4 +1,4 @@
-<img alt="Python REPL: a model scores 0.98 accuracy on a test set whose base rate is 0.98" src="repl.svg">
+<img alt="Python REPL: a model scores 0.98 accuracy and 0.0 recall on an imbalanced clinical outcome" src="repl.svg">
 
 Economics from UW–Madison, May 2026. Machine learning evaluation, quantitative
 finance and healthcare analytics.

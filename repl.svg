@@ -7,10 +7,10 @@
   <text x="40" y="120" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="19"><tspan fill="#5E9E6E">abhay@mettu</tspan><tspan fill="#4A4A52"> ~ </tspan><tspan fill="#F2F2EE">&#10095; python3</tspan></text>
   <text x="40" y="156" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#8C8C95">Python 3.12  ·  imbalanced clinical outcome, 2,412 rows</text>
   <text x="40" y="190" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18"><tspan fill="#4A4A52">&gt;&gt;&gt; </tspan><tspan fill="#D8D8DE">accuracy_score(y_test, model.predict(X_test))</tspan></text>
-  <text x="40" y="224" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#E4572E">0.98</text>
-  <text x="40" y="258" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18"><tspan fill="#4A4A52">&gt;&gt;&gt; </tspan><tspan fill="#D8D8DE">y_test.mean()</tspan></text>
-  <text x="40" y="292" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#E4572E">0.98</text>
-  <text x="40" y="334" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#4A4A52"># the model learned to say "no"</text>
+  <text x="40" y="224" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#5E9E6E">0.98</text>
+  <text x="40" y="258" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18"><tspan fill="#4A4A52">&gt;&gt;&gt; </tspan><tspan fill="#D8D8DE">recall_score(y_test, model.predict(X_test))</tspan></text>
+  <text x="40" y="292" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#E4572E">0.0</text>
+  <text x="40" y="334" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#4A4A52"># 98% right. 0% useful.</text>
   <text x="40" y="378" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="19">
     <tspan fill="#5E9E6E">abhay@mettu</tspan><tspan fill="#4A4A52"> ~ </tspan><tspan fill="#F2F2EE">&#10095; &#9608;</tspan>
   </text>
