@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img">
+  <defs>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="105"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="300" fill="#0C0C0F"/>
+  <g filter="url(#soft)">
+    <ellipse cx="230" cy="90" rx="330" ry="190" fill="#7A4A32" opacity="0.55"/>
+    <ellipse cx="980" cy="230" rx="360" ry="210" fill="#2F4652" opacity="0.60"/>
+    <ellipse cx="620" cy="40" rx="260" ry="150" fill="#6B4B5E" opacity="0.45"/>
+    <ellipse cx="470" cy="290" rx="300" ry="170" fill="#3A3A57" opacity="0.45"/>
+  </g>
+  <text x="92" y="152" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="46" letter-spacing="-0.5"
+    fill="#F0EDE6">This loop keeps running only</text>
+  <text x="92" y="208" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="46" letter-spacing="-0.5"
+    fill="#F0EDE6">while you keep narrating it</text>
+</svg>
