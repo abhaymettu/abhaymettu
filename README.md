@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="header-dark.svg">
-  <img alt="Every one of them says what did not hold. Precision against 200 blind hand-coded posts: obligation 0.52, self-criticism 0.94, against a preregistered threshold of 0.70." src="header-light.svg">
+  <img alt="Every report here says what did not hold. Precision against 200 blind hand-coded posts: obligation 0.52, self-criticism 0.94, against a preregistered threshold of 0.70." src="header-light.svg">
 </picture>
 
 Economics from UW–Madison, May 2026. Machine learning evaluation, quantitative
@@ -24,6 +24,14 @@ Write-ups with figures live at [abhaymettu.com/research](https://www.abhaymettu.
 | [vol-horserace](https://github.com/abhaymettu/vol-horserace) | Gradient boosting beats HAR-RV on QLIKE at a one day horizon and is thrown out of the 90% model confidence set at 22 days. |
 | [kalshi-calibration](https://github.com/abhaymettu/kalshi-calibration) | Kalshi prices are calibrated. What a naive backtest reads as edge is 65% bid-ask spread, and fees consume 86% of what survives. |
 
+### Real estate and markets
+
+| | |
+|---|---|
+| [assessment-regressivity](https://github.com/abhaymettu/assessment-regressivity) | 39.6% of Dane County sales closing before the lien date carry an assessed value equal to the sale price to the dollar, against 1.0% after it. The obvious hedonic control is a trap that moves the regressivity estimate from -0.113 to -0.413; the uncontaminated one leaves -0.0626. |
+| [comps-error](https://github.com/abhaymettu/comps-error) | Comparable-sales valuation misses by 19.4% at the median on 168,178 held-out New York sales, and loses to the market value the city publishes for free at 17.7%. Estimates were committed before the scoring code existed. |
+| [permit-lifecycle](https://github.com/abhaymettu/permit-lifecycle) | Permit to completion runs 7 months for a single house and 23 for a 50-unit project, so there is no single lag. The never-built share does not generalise at all, 0.9% to 9.4% across six cities. |
+
 ### Commercial and category analytics
 
 | | |
@@ -42,6 +50,7 @@ Write-ups with figures live at [abhaymettu.com/research](https://www.abhaymettu.
 | [clinic-overbooking-policy](https://github.com/abhaymettu/clinic-overbooking-policy) | A no-show model beats a flat rule by 0.4 clinician minutes, and does worse than no model once calibration drifts with AUC unchanged. |
 | [ehr-data-quality-harness](https://github.com/abhaymettu/ehr-data-quality-harness) | 20 of 24 data quality checks fire zero times on clean data, so the deliverable is the fault injection that scores the scorecard. |
 | [trial-budget-variance](https://github.com/abhaymettu/trial-budget-variance) | Price-volume-mix bridge on CMS fee schedules. 89% of a $99,498 gap is enrolment volume, and the five components reconcile exactly. |
+| [brfss-vs-places](https://github.com/abhaymettu/brfss-vs-places) | CDC PLACES reproduces about 75% of the true between-area variance in the direct BRFSS estimate, so it ranks areas well and understates every gap. The thin-sample explanation does not hold: the compression is there at every area size. |
 | [clinvar-acmg-cohort](https://github.com/abhaymettu/clinvar-acmg-cohort) | ACMG reportable variants over 9M ClinVar rows. Only 3.9% have a usable frequency, so every prevalence is a lower bound. |
 
 ### Psychology and population health
@@ -50,6 +59,7 @@ Write-ups with figures live at [abhaymettu.com/research](https://www.abhaymettu.
 |---|---|
 | [reddit-selfdistance](https://github.com/abhaymettu/reddit-selfdistance) | Preregistered. One of two dictionaries missed its own validation threshold, so the hypothesis resting on it was downgraded. |
 | [population-mental-health](https://github.com/abhaymettu/population-mental-health) | Cox models on MIDUS and NHANES, including a correction to a hazard ratio I first reported wrong. |
+| [phq9-measurement-invariance](https://github.com/abhaymettu/phq9-measurement-invariance) | PHQ-9 invariance fails across sex on one somatic item, and about 11% of the published sex gap is the instrument rather than the people. The race verdict flips on a modelling default nobody reports. |
 | [ews-mood](https://github.com/abhaymettu/ews-mood) | Critical-slowing-down indicators for mood transitions. A nominally 5% test rejected 28 to 43% under the null. |
 
 ### Engineering and tools
@@ -57,7 +67,11 @@ Write-ups with figures live at [abhaymettu.com/research](https://www.abhaymettu.
 | | |
 |---|---|
 | [paper-lecture](https://github.com/abhaymettu/paper-lecture) | Turns a paper PDF into a narrated lecture and an Anki deck. Local TTS, no API keys. |
-| [scaffold](https://github.com/abhaymettu/scaffold) | External executive function: an Obsidian second brain and a Telegram bot that nudges on a 30-minute cadence. |
+| [recap](https://github.com/abhaymettu/recap) | Records a successful computer-use agent run as a typed capability, replays it deterministically, and heals it when the UI moves. |
+| [claude-desktop-to-code](https://github.com/abhaymettu/claude-desktop-to-code) | Routes work from a Claude Desktop chat into Claude Code, headless or handed to a real terminal with the session history intact. |
+| [temporal-grounding](https://github.com/abhaymettu/temporal-grounding) | Claude skill that catches a date the user asserts against the date already in context. Built test first over about 40 isolated runs. |
+| [writing-from-dated-sources](https://github.com/abhaymettu/writing-from-dated-sources) | Claude skill that stops a stale document being rewritten as fresh present-tense prose. Base rate measured over 613 real files. |
+| **numen** | A personal assistant that lives in your texts: morning brief, Gmail replies drafted in your voice, calendar, durable memory, and a text that can start a real Claude Code session in any repo. 1,600 lines of stdlib Python, zero dependencies, running on my own Mac. Private for now, [ask for access](mailto:abhaymettu12@gmail.com?subject=numen). |
 
 Analyst and research roles where the job is to build the number and then find
 out whether it holds. Washington State, Chicago, Boston or Madison WI, and I

@@ -38,7 +38,7 @@ def svg(t):
 
   <text x="{PAD}" y="76" font-family="{MONO}" font-size="14" letter-spacing="2.4" fill="{t['faint']}">ABHAY METTU</text>
 
-  <text x="{PAD}" y="180" font-family="{SERIF}" font-size="50" font-weight="400" letter-spacing="-0.6" fill="{t['ink']}">Every one of them says what did not hold.</text>
+  <text x="{PAD}" y="180" font-family="{SERIF}" font-size="50" font-weight="400" letter-spacing="-0.6" fill="{t['ink']}">Every report here says what did not hold.</text>
 
   <line x1="{X0}" y1="{AXIS_Y}" x2="{X1}" y2="{AXIS_Y}" stroke="{t['rule']}" stroke-width="1"/>
   <line x1="{x(0.70):.1f}" y1="{AXIS_Y - 26}" x2="{x(0.70):.1f}" y2="{AXIS_Y + 12}" stroke="{t['faint']}" stroke-width="1" stroke-dasharray="3 4"/>

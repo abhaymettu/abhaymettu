@@ -3,7 +3,7 @@
 
   <text x="80" y="76" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="14" letter-spacing="2.4" fill="#A6A6AE">ABHAY METTU</text>
 
-  <text x="80" y="180" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="50" font-weight="400" letter-spacing="-0.6" fill="#17171B">Every one of them says what did not hold.</text>
+  <text x="80" y="180" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="50" font-weight="400" letter-spacing="-0.6" fill="#17171B">Every report here says what did not hold.</text>
 
   <line x1="80" y1="268" x2="1120" y2="268" stroke="#E6E6E1" stroke-width="1"/>
   <line x1="808.0" y1="242" x2="808.0" y2="280" stroke="#A6A6AE" stroke-width="1" stroke-dasharray="3 4"/>
