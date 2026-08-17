@@ -1,8 +1,6 @@
 Economics from UW–Madison, May 2026. Machine learning evaluation, quantitative
 finance and healthcare analytics.
 
-Twenty-one repos on public data. Every one of them says what did not hold.
-
 Write-ups with figures live at [abhaymettu.com/research](https://www.abhaymettu.com/research/).
 
 ### Machine learning systems
