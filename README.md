@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="header-dark.svg">
-  <img alt="Phase portrait of a Van der Pol oscillator: trajectories spiralling onto one closed orbit. This loop keeps running only while you keep narrating it." src="header-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="cycle-dark.svg">
+  <img alt="Phase portrait of a Van der Pol oscillator: trajectories spiralling onto one closed orbit. This loop keeps running only while you keep narrating it." src="cycle-light.svg">
 </picture>
 
 Economics from UW–Madison, May 2026. Machine learning evaluation, quantitative

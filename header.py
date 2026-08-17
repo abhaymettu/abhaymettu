@@ -92,5 +92,5 @@ def svg(t):
 
 if __name__ == "__main__":
     for name, theme in THEMES.items():
-        open(f"header-{name}.svg", "w").write(svg(theme))
-        print(f"header-{name}.svg")
+        open(f"cycle-{name}.svg", "w").write(svg(theme))
+        print(f"cycle-{name}.svg")
