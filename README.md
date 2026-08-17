@@ -1,4 +1,4 @@
-<img alt="Terminal session: the research groups, then the LLM judge scored against a baseline that reads none of the text" src="header.svg">
+<img alt="Terminal: abhay --help, listing audit-first, preregister and negative-control as on, and p-hack as unsupported" src="header.svg">
 
 Economics from UW–Madison, May 2026. Machine learning evaluation, quantitative
 finance and healthcare analytics.
