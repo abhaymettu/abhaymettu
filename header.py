@@ -13,7 +13,7 @@ Everything is deterministic from SEED, so the file regenerates byte for byte.
 import math
 import random
 
-W, H = 1200, 332
+W, H = 1200, 378
 PAD = 96
 X0, X1 = PAD, W - PAD
 
@@ -24,9 +24,12 @@ AMP = 64                  # tallest ridge, in px
 BASE_Y = 278              # baseline of the frontmost ridge
 SEED = 11
 
+LINE = "I want to measure depression without asking anyone how they feel."
+MONO = "'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace"
+
 THEMES = {
-    "light": dict(paper="#FCFCFA", ink="#17171B", under="#B4472F"),
-    "dark":  dict(paper="#17171B", ink="#F2F2EE", under="#D06A4F"),
+    "light": dict(paper="#FCFCFA", ink="#17171B", under="#B4472F", soft="#6E6E77"),
+    "dark":  dict(paper="#17171B", ink="#F2F2EE", under="#D06A4F", soft="#9A9AA3"),
 }
 
 
@@ -84,6 +87,8 @@ def svg(t):
         f'viewBox="0 0 {W} {H}" role="img">\n'
         f'  <rect width="{W}" height="{H}" fill="{t["paper"]}"/>\n'
         + "\n".join(ridges)
+        + f'\n  <text x="{PAD}" y="{H - 34}" font-family="{MONO}" font-size="13.5" '
+          f'letter-spacing="0.2" fill="{t["soft"]}">{LINE}</text>'
         + "\n</svg>\n"
     )
 
