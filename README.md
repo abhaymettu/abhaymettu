@@ -1,11 +1,9 @@
 Economics from UW–Madison, May 2026. Machine learning evaluation, quantitative
 finance and healthcare analytics.
 
-Everything below runs on public data and is reproducible from a clone. Each
-repo states what it does not support as clearly as what it found, which is the
-part I would want to read first.
+Twenty-one repos on public data. Every one of them says what did not hold.
 
-**Write-ups with figures live at [abhaymettu.com/research](https://www.abhaymettu.com/research/).**
+Write-ups with figures live at [abhaymettu.com/research](https://www.abhaymettu.com/research/).
 
 ### Machine learning systems
 
@@ -23,6 +21,13 @@ part I would want to read first.
 | [vol-horserace](https://github.com/abhaymettu/vol-horserace) | Gradient boosting beats HAR-RV on QLIKE at a one day horizon and is thrown out of the 90% model confidence set at 22 days. |
 | [kalshi-calibration](https://github.com/abhaymettu/kalshi-calibration) | Kalshi prices are calibrated. What a naive backtest reads as edge is 65% bid-ask spread, and fees consume 86% of what survives. |
 
+### Commercial and category analytics
+
+| | |
+|---|---|
+| [energy-category-share-shift](https://github.com/abhaymettu/energy-category-share-shift) | Category share from two issuers' SEC scanner exhibits. Cross-issuer disagreement is 2.16 share points, larger than most published shifts. |
+| [energy-category-forecast](https://github.com/abhaymettu/energy-category-forecast) | A driver-based share forecast that lost to a no-change baseline on backtest, so the scenario range shipped instead of a point estimate. |
+
 ### Healthcare and payer analytics
 
 | | |
@@ -36,13 +41,6 @@ part I would want to read first.
 | [trial-budget-variance](https://github.com/abhaymettu/trial-budget-variance) | Price-volume-mix bridge on CMS fee schedules. 89% of a $99,498 gap is enrolment volume, and the five components reconcile exactly. |
 | [clinvar-acmg-cohort](https://github.com/abhaymettu/clinvar-acmg-cohort) | ACMG reportable variants over 9M ClinVar rows. Only 3.9% have a usable frequency, so every prevalence is a lower bound. |
 
-### Category and market
-
-| | |
-|---|---|
-| [energy-category-share-shift](https://github.com/abhaymettu/energy-category-share-shift) | Category share from two issuers' SEC scanner exhibits. Cross-issuer disagreement is 2.16 share points, larger than most published shifts. |
-| [energy-category-forecast](https://github.com/abhaymettu/energy-category-forecast) | A driver-based share forecast that lost to a no-change baseline on backtest, so the scenario range shipped instead of a point estimate. |
-
 ### Psychology and population health
 
 | | |
@@ -51,13 +49,13 @@ part I would want to read first.
 | [population-mental-health](https://github.com/abhaymettu/population-mental-health) | Cox models on MIDUS and NHANES, including a correction to a hazard ratio I first reported wrong. |
 | [ews-mood](https://github.com/abhaymettu/ews-mood) | Critical-slowing-down indicators for mood transitions. A nominally 5% test rejected 28 to 43% under the null. |
 
-### Tools
+### Engineering and tools
 
 | | |
 |---|---|
 | [paper-lecture](https://github.com/abhaymettu/paper-lecture) | Turns a paper PDF into a narrated lecture and an Anki deck. Local TTS, no API keys. |
-| [scaffold](https://github.com/abhaymettu/scaffold) | Project scaffolding I got tired of rewriting. |
+| [scaffold](https://github.com/abhaymettu/scaffold) | External executive function: an Obsidian second brain and a Telegram bot that nudges on a 30-minute cadence. |
 
-Looking for analytics, healthcare analytics, research and engineering roles.
+Analyst and research roles where the job is to build the number and then find
+out whether it holds. Anywhere in the US, and I will move.
 [abhaymettu.com](https://www.abhaymettu.com) · abhaymettu12@gmail.com
-
