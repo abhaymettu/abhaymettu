@@ -1,4 +1,4 @@
-<img alt="Terminal: abhay --help, listing audit-first, preregister and negative-control as on, and p-hack as unsupported" src="header.svg">
+<img alt="Python REPL: a model scores 0.98 accuracy on a test set whose base rate is 0.98" src="header.svg">
 
 Economics from UW–Madison, May 2026. Machine learning evaluation, quantitative
 finance and healthcare analytics.
@@ -70,7 +70,7 @@ Write-ups with figures live at [abhaymettu.com/research](https://www.abhaymettu.
 | [writing-from-dated-sources](https://github.com/abhaymettu/writing-from-dated-sources) | Claude skill that stops a stale document being rewritten as fresh present-tense prose. Base rate measured over 613 real files. |
 | **numen** | A personal assistant that lives in your texts: morning brief, Gmail replies drafted in your voice, calendar, durable memory, and a text that can start a real Claude Code session in any repo. 1,600 lines of stdlib Python, zero dependencies, running on my own Mac. Private for now, [ask for access](mailto:abhaymettu12@gmail.com?subject=numen). |
 
-<img alt="This loop keeps running only while you keep narrating it" src="footer.svg">
+<a href="https://www.numinous.one"><img alt="This loop keeps running only while you keep narrating it" src="footer.svg"></a>
 
 Analyst and research roles where the job is to build the number and then find
 out whether it holds. Washington State, Chicago, Boston or Madison WI, and I

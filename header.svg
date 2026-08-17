@@ -4,20 +4,14 @@
   <circle cx="62" cy="36" r="6.5" fill="#2E2E34"/>
   <circle cx="84" cy="36" r="6.5" fill="#2E2E34"/>
   <line x1="0" y1="66" x2="1200" y2="66" stroke="#1C1C21" stroke-width="1"/>
-  <text x="40" y="120" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="19"><tspan fill="#5E9E6E">abhay@mettu</tspan><tspan fill="#4A4A52"> ~ </tspan><tspan fill="#F2F2EE">&#10095; abhay --help</tspan></text>
-  <text x="40" y="156" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#8C8C95">usage: abhay [analysis] [--audit-first] [--preregister] [--negative-control]</text>
-  <text x="40" y="192" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#B9B9C0">--audit-first</text>
-  <text x="300" y="192" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#8C8C95">audit the data before building on it</text>
-  <text x="820" y="192" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#5E9E6E">on</text>
-  <text x="40" y="228" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#B9B9C0">--preregister</text>
-  <text x="300" y="228" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#8C8C95">set the threshold before looking</text>
-  <text x="820" y="228" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#5E9E6E">on</text>
-  <text x="40" y="264" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#B9B9C0">--negative-control</text>
-  <text x="300" y="264" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#8C8C95">inject faults to prove the checks fire</text>
-  <text x="820" y="264" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#5E9E6E">on</text>
-  <text x="40" y="300" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#E4572E">--p-hack</text>
-  <text x="300" y="300" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#E4572E">unsupported</text>
-  <text x="40" y="362" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="19">
+  <text x="40" y="120" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="19"><tspan fill="#5E9E6E">abhay@mettu</tspan><tspan fill="#4A4A52"> ~ </tspan><tspan fill="#F2F2EE">&#10095; python3</tspan></text>
+  <text x="40" y="156" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#8C8C95">Python 3.12  ·  imbalanced clinical outcome, 2,412 rows</text>
+  <text x="40" y="190" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18"><tspan fill="#4A4A52">&gt;&gt;&gt; </tspan><tspan fill="#D8D8DE">accuracy_score(y_test, model.predict(X_test))</tspan></text>
+  <text x="40" y="224" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#E4572E">0.98</text>
+  <text x="40" y="258" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18"><tspan fill="#4A4A52">&gt;&gt;&gt; </tspan><tspan fill="#D8D8DE">y_test.mean()</tspan></text>
+  <text x="40" y="292" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#E4572E">0.98</text>
+  <text x="40" y="334" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="18" fill="#4A4A52"># the model learned to say "no"</text>
+  <text x="40" y="378" font-family="'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace" font-size="19">
     <tspan fill="#5E9E6E">abhay@mettu</tspan><tspan fill="#4A4A52"> ~ </tspan><tspan fill="#F2F2EE">&#10095; &#9608;</tspan>
   </text>
 </svg>
