@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="header-dark.svg">
-  <img alt="Stacked distributions drifting right, one picked out in terracotta. I want to measure depression without asking anyone how they feel." src="header-light.svg">
+  <img alt="Stacked distributions drifting right, one picked out in terracotta. I want to measure what a model is worth without asking another model." src="header-light.svg">
 </picture>
 
 Economics from UW–Madison, May 2026. Machine learning evaluation, quantitative
