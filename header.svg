@@ -57,6 +57,44 @@
 
   <rect width="1200" height="400" filter="url(#grain)" opacity="0.06"/>
 
-  <text x="600.0" y="182" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="66" letter-spacing="-0.5" fill="#F0EDE6">This loop keeps running only</text>
-  <text x="600.0" y="260" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="66" letter-spacing="-0.5" fill="#F0EDE6">while you keep narrating it</text>
+  <g opacity="1">
+    <animate attributeName="opacity" dur="56s" values="1;1;0;0;1" keyTimes="0.00000;0.10000;0.12500;0.97500;1.00000" calcMode="linear" repeatCount="indefinite"/>
+    <text x="600.0" y="188" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="58" letter-spacing="-0.5" fill="#F0EDE6">This loop only keeps running</text>
+    <text x="600.0" y="264" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="58" letter-spacing="-0.5" fill="#F0EDE6">while you keep narrating it.</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="56s" values="0;0;1;1;0;0" keyTimes="0.00000;0.12500;0.15000;0.22500;0.25000;1.00000" calcMode="linear" repeatCount="indefinite"/>
+    <text x="600.0" y="188" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="58" letter-spacing="-0.5" fill="#F0EDE6">You are the sky. Everything</text>
+    <text x="600.0" y="264" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="58" letter-spacing="-0.5" fill="#F0EDE6">else is just the weather.</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="56s" values="0;0;1;1;0;0" keyTimes="0.00000;0.25000;0.27500;0.35000;0.37500;1.00000" calcMode="linear" repeatCount="indefinite"/>
+    <text x="600.0" y="188" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="48" letter-spacing="-0.5" fill="#F0EDE6">The thought is not the thinker.</text>
+    <text x="600.0" y="254" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="48" letter-spacing="-0.5" fill="#F0EDE6">Watch it pass, and notice you remain.</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="56s" values="0;0;1;1;0;0" keyTimes="0.00000;0.37500;0.40000;0.47500;0.50000;1.00000" calcMode="linear" repeatCount="indefinite"/>
+    <text x="600.0" y="188" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="58" letter-spacing="-0.5" fill="#F0EDE6">Notice that you are noticing.</text>
+    <text x="600.0" y="264" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="58" letter-spacing="-0.5" fill="#F0EDE6">That is already the way out.</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="56s" values="0;0;1;1;0;0" keyTimes="0.00000;0.50000;0.52500;0.60000;0.62500;1.00000" calcMode="linear" repeatCount="indefinite"/>
+    <text x="600.0" y="188" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="48" letter-spacing="-0.5" fill="#F0EDE6">Between stimulus and response there is</text>
+    <text x="600.0" y="254" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="48" letter-spacing="-0.5" fill="#F0EDE6">a space. In that space is our freedom.</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="56s" values="0;0;1;1;0;0" keyTimes="0.00000;0.62500;0.65000;0.72500;0.75000;1.00000" calcMode="linear" repeatCount="indefinite"/>
+    <text x="600.0" y="188" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="48" letter-spacing="-0.5" fill="#F0EDE6">The story of you is still being written.</text>
+    <text x="600.0" y="254" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="48" letter-spacing="-0.5" fill="#F0EDE6">Set the pen down; let the page breathe.</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="56s" values="0;0;1;1;0;0" keyTimes="0.00000;0.75000;0.77500;0.85000;0.87500;1.00000" calcMode="linear" repeatCount="indefinite"/>
+    <text x="600.0" y="188" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="48" letter-spacing="-0.5" fill="#F0EDE6">You are stuck only because you keep</text>
+    <text x="600.0" y="254" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="48" letter-spacing="-0.5" fill="#F0EDE6">looking down. The next step is small.</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="56s" values="0;0;1;1;0" keyTimes="0.00000;0.87500;0.90000;0.97500;1.00000" calcMode="linear" repeatCount="indefinite"/>
+    <text x="600.0" y="188" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="58" letter-spacing="-0.5" fill="#F0EDE6">Motion, not certainty, dissolves</text>
+    <text x="600.0" y="264" text-anchor="middle" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="58" letter-spacing="-0.5" fill="#F0EDE6">the fog. Take one honest step.</text>
+  </g>
 </svg>
