@@ -24,7 +24,7 @@ AMP = 64                  # tallest ridge, in px
 BASE_Y = 278              # baseline of the frontmost ridge
 SEED = 11
 
-LINE = "I want to measure what a model is worth without asking another model."
+LINE = "I want to know whether a number is measuring the person or the instrument."
 MONO = "'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace"
 
 THEMES = {
