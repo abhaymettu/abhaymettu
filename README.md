@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="header-dark.svg">
-  <img alt="Every report here says what did not hold. Precision against 200 blind hand-coded posts: obligation 0.52, self-criticism 0.94, against a preregistered threshold of 0.70." src="header-light.svg">
+  <img alt="Sixteen stacked distributions drifting right as they come forward, one of them picked out in terracotta." src="header-light.svg">
 </picture>
 
 Economics from UW–Madison, May 2026. Machine learning evaluation, quantitative
