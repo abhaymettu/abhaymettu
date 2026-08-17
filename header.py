@@ -71,6 +71,6 @@ footer = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{FW}" height="{FH}" 
 '''
 
 if __name__ == "__main__":
-    open("header.svg", "w").write(header)
-    open("footer.svg", "w").write(footer)
-    print("header.svg footer.svg")
+    open("repl.svg", "w").write(header)
+    open("loop.svg", "w").write(footer)
+    print("repl.svg loop.svg")
