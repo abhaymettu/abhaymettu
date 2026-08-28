@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # Public repos not yet linked from README.md. Empty output means the profile is current.
 gh repo list abhaymettu --limit 200 --visibility public --no-archived --source \
   --json name,description,pushedAt --jq '.[] | "\(.pushedAt[:10])\t\(.name)\t\(.description // "")"' \
