@@ -1,5 +1,3 @@
-<img alt="Python REPL: a model scores 0.98 accuracy and 0.0 recall on an imbalanced clinical outcome" src="repl.svg">
-
 Computer science and economics from UW–Madison, May 2026. Machine learning
 with data across all fields, and agent infrastructure that takes care of the
 tedious parts. The interesting parts get measured and written up as research.
