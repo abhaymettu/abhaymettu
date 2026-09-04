@@ -1,5 +1,3 @@
-<img alt="Python REPL: an assertion gate scores an agent turn and flags one unverified assertion, a link claimed reusable that the trace shows was never fetched" src="repl.svg">
-
 Computer science and economics from UW–Madison, May 2026. Machine learning
 with data across all fields, and agent infrastructure that takes care of the
 tedious parts. The interesting parts get measured and written up as research.
