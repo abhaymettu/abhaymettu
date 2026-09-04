@@ -1,9 +1,12 @@
 <img alt="Python REPL: a model scores 0.98 accuracy and 0.0 recall on an imbalanced clinical outcome" src="repl.svg">
 
-Economics from UW–Madison, May 2026. Speech and realtime voice systems, machine
-learning evaluation, quantitative finance and healthcare analytics.
+Computer science and economics from UW–Madison, May 2026. Machine learning
+with data across all fields, and agent infrastructure that takes care of the
+tedious parts. The interesting parts get measured and written up as research.
 
-Write-ups with figures live at [abhaymettu.com/research](https://www.abhaymettu.com/research/).
+Reports with figures live at [abhaymettu.com](https://www.abhaymettu.com).
+Ideas that outgrow a commit message turn into
+[essays](https://www.abhaymettu.com/essays/).
 
 ### Speech and realtime voice
 
@@ -89,7 +92,6 @@ Write-ups with figures live at [abhaymettu.com/research](https://www.abhaymettu.
 | [cate-dispatch](https://github.com/abhaymettu/cate-dispatch) | Rough thought in, spec'd Claude Code agent out, running in a Cate terminal panel and a git worktree, with a board of who is working, who needs you and who is done. |
 | [claude-file-links](https://github.com/abhaymettu/claude-file-links) | Makes the files Claude Code sends you clickable in the terminal, as OSC 8 hyperlinks. One hook. |
 | [conscious](https://github.com/abhaymettu/conscious) | A macOS daemon that takes the whole screen for twenty seconds at unpredictable intervals, one sentence and a breath, and will not let you click away. |
-| **numen** | A personal assistant that lives in your texts: morning brief, Gmail replies drafted in your voice, calendar, durable memory, and a text that can start a real Claude Code session in any repo. 1,600 lines of stdlib Python, zero dependencies, running on my own Mac. Private for now, [ask for access](mailto:abhaymettu12@gmail.com?subject=numen). |
 
 <a href="https://www.numinous.one"><img alt="This loop keeps running only while you keep narrating it" src="loop.svg"></a>
 
@@ -97,3 +99,4 @@ Analyst and research roles where the job is to build the number and then find
 out whether it holds. Washington State, Chicago, Boston or Madison WI, and I
 will move.
 [abhaymettu.com](https://www.abhaymettu.com) · abhaymettu12@gmail.com
+
