@@ -1,14 +1,9 @@
-Computer science and economics from UW–Madison, May 2026. Machine learning
-with data across all fields, and agent infrastructure that takes care of the
-tedious parts. The interesting parts get measured and written up as research.
+i study how agents behave, how we measure them, and what it takes to trust their work. i build the infrastructure to test those questions in real systems.
 
-Reports with figures live at [abhaymettu.com](https://www.abhaymettu.com).
-Ideas that outgrow a commit message turn into
-[essays](https://www.abhaymettu.com/essays/).
+my work sits between agent evaluation and psychometrics, with applied machine learning wherever the question takes me. the methods and write-ups live on [my site](https://abhaymettu.com/research/).
 
 <a href="https://www.numinous.one"><img alt="This loop keeps running only while you keep narrating it" src="loop.svg"></a>
 
-Analyst and research roles where the job is to build the number and then find
-out whether it holds. Washington State, Chicago, Boston or Madison WI, and I
-will move.
-[abhaymettu.com](https://www.abhaymettu.com) · abhaymettu12@gmail.com
+i studied economics at uw-madison, with minors in cs and data science. graduated may 2026.
+
+[research](https://abhaymettu.com/research/) · [essays](https://abhaymettu.com/essays/)
