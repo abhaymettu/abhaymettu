@@ -11,8 +11,6 @@ i build software with ai agents and the tooling around them: agent evals, llm ju
 </tr>
 </table>
 
-pinned, one line each:
-
 - **[assertion-gate](https://github.com/abhaymettu/assertion-gate)**: one in nine claims an agent makes about the world isn't backed by its own tool receipts. 324 claims from 5 real claude code sessions. claimcheck is the live version (private repo, [write-up](https://abhaymettu.com/research/claimcheck/)).
 - **[judge-reliability](https://github.com/abhaymettu/judge-reliability)**: how much you can trust an llm as a judge, measured against the human ceiling.
 - **[benchdif](https://github.com/abhaymettu/benchdif)**: item-level dif on 395 leaderboard models runs 6.1 to 9.7 times the null, and cancels almost exactly at the test level.
