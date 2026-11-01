@@ -1,12 +1,12 @@
-i build ai agents and the evals that check whether they did what they said.
+i build ai agents and the tools that check whether they actually did what they said.
 
-- **[receipts](https://github.com/abhaymettu/receipts)** · 13% of the claims coding agents make about their own work aren't backed by their own tool calls
-- **[code-freeze-bench](https://github.com/abhaymettu/code-freeze-bench)** · told the code was frozen, opus still wrote to production in 5 of 25 runs. a read-only role stopped every one
-- **[benchmeasure](https://github.com/abhaymettu/benchmeasure)** · none of the 19 neighbouring pairs in the swe-bench verified top 20 can be told apart statistically
-- **[laneproof](https://github.com/abhaymettu/laneproof)** · runs coding agents in parallel and only counts work that lands on main with its evidence re-run
-- **[minecraft-sre](https://github.com/abhaymettu/minecraft-sre)** · an agent on call for a minecraft server, graded from the world files instead of its own report
-- **[index-cards](https://github.com/abhaymettu/index-cards)** · memory for coding agents. 89.5% vs 82.1% for embedding rag at a 4,000-token budget
+- **[receipts](https://github.com/abhaymettu/receipts)** · coding agents often say "tests pass" or "fixed it" without having checked. this reads an agent's session and flags the claims its own tool calls don't back up.
+- **[code-freeze-bench](https://github.com/abhaymettu/code-freeze-bench)** · rebuilds the 2025 incident where an agent wiped a production database during a code freeze, on a real postgres server, to find out which guardrails actually stop it.
+- **[benchmeasure](https://github.com/abhaymettu/benchmeasure)** · treats ai benchmarks as measurement instruments and asks how much a leaderboard ranking can be trusted. near the top of swe-bench, not much.
+- **[laneproof](https://github.com/abhaymettu/laneproof)** · runs many coding agents in parallel and only counts work that lands on main with its evidence re-run, so no agent's "done" is taken on trust.
+- **[minecraft-sre](https://github.com/abhaymettu/minecraft-sre)** · puts an agent on call for a minecraft server, breaks things, and grades the shift from the world itself rather than from the agent's report.
+- **[index-cards](https://github.com/abhaymettu/index-cards)** · a memory layer for coding agents over a folder of markdown notes, tested against plain retrieval on questions that need more than one note.
 
-also [mcpify](https://github.com/abhaymettu/mcpify), [hill-climb](https://github.com/abhaymettu/hill-climb) and [perch](https://github.com/abhaymettu/perch). seven of these have papers, collected with the write-ups at **[abhaymettu.com](https://abhaymettu.com)**.
+also [mcpify](https://github.com/abhaymettu/mcpify) (any scriptable mac app as an mcp server), [hill-climb](https://github.com/abhaymettu/hill-climb) (a skill for improving code in measured rounds) and [perch](https://github.com/abhaymettu/perch) (everything running on your mac, in the menu bar). write-ups and papers at **[abhaymettu.com](https://abhaymettu.com)**.
 
 <sub>economics at uw-madison, cs and data science minors, may 2026 · previously founding swe intern at martin (yc s23) · [linkedin](https://linkedin.com/in/abhaymettu)</sub>
