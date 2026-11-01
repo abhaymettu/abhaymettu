@@ -1,4 +1,7 @@
-i build software with ai agents and the tooling around them: agent evals, llm judges, and the measurement that says whether a number means anything. write-ups, papers and the rest of the work: **[abhaymettu.com](https://abhaymettu.com)**
+i build software with ai agents and the tooling that checks them: claim verification, llm judges, and the measurement that says whether a number means anything. write-ups, papers and the rest of the work: **[abhaymettu.com](https://abhaymettu.com)**
+
+<!-- FLAGSHIPS:START (filled as each one ships) -->
+<!-- FLAGSHIPS:END -->
 
 <table>
 <tr>
@@ -11,12 +14,23 @@ i build software with ai agents and the tooling around them: agent evals, llm ju
 </tr>
 </table>
 
-- **[assertion-gate](https://github.com/abhaymettu/assertion-gate)**: one in nine claims an agent makes about the world isn't backed by its own tool receipts. 324 claims from 5 real claude code sessions. claimcheck is the live version (private repo, [write-up](https://abhaymettu.com/research/claimcheck/)).
-- **[judge-reliability](https://github.com/abhaymettu/judge-reliability)**: how much you can trust an llm as a judge, measured against the human ceiling.
+**agents and evals**
+
+- **[assertion-gate](https://github.com/abhaymettu/assertion-gate)**: one in nine claims an agent makes about the world isn't backed by its own tool receipts. 324 claims from 5 real claude code sessions.
+- **[judge-reliability](https://github.com/abhaymettu/judge-reliability)**: how much you can trust an llm as a judge, measured against the human ceiling and a rule that reads none of the text.
 - **[benchdif](https://github.com/abhaymettu/benchdif)**: item-level dif on 395 leaderboard models runs 6.1 to 9.7 times the null, and cancels almost exactly at the test level.
-- **[semantic-null-psychometrics](https://github.com/abhaymettu/semantic-null-psychometrics)**: the item wording paper and its code.
-- **[depression-behavior-modeling](https://github.com/abhaymettu/depression-behavior-modeling)**: the validity ceiling paper and its code.
 - **[index-cards](https://github.com/abhaymettu/index-cards)**: a memory layer for coding agents, one markdown card per person, project and topic, with no model on the write path.
+- **[minecraft-sre](https://github.com/abhaymettu/minecraft-sre)**: an agent runs a minecraft server like production. it detects an injected incident and fixes it, graded by world diffs so a destructive fix can't score above 50.
+- **[read-the-room](https://github.com/abhaymettu/read-the-room)**: group chat manners for personal agents. it works out who a message is for and speaks only when it's its turn, without looping against other agents.
+- **[harness2-claude-port](https://github.com/abhaymettu/harness2-claude-port)** and **[harness2-hermes-port](https://github.com/abhaymettu/harness2-hermes-port)**: independent claude code and hermes agent executors for google research's harness².
+- **[perch](https://github.com/abhaymettu/perch)**: everything running on your mac in one menu bar panel: claude code sessions, dev servers, launch agents, cron, and how much usage is left.
+
+**papers**
+
+- [item wording and the covariance of self-report items](https://abhaymettu.com/research/semantic-null/) ([code](https://github.com/abhaymettu/semantic-null-psychometrics))
+- [the validity ceiling: what passive behavioral data can and cannot measure about depression](https://abhaymettu.com/research/depression-ceiling/) ([code](https://github.com/abhaymettu/depression-behavior-modeling))
+- [ghost respondents: a boundary map for covert ai authorship in open-ended survey data](https://doi.org/10.5281/zenodo.23252508) ([code](https://github.com/abhaymettu/ghost-respondents-code))
+- [agora: deriving voting rules and impossibilities from axioms](https://github.com/abhaymettu/agora)
 
 <a href="https://www.numinous.one"><img alt="This loop keeps running only while you keep narrating it" src="loop.svg"></a>
 
